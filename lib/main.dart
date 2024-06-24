@@ -38,7 +38,7 @@ class MyApp extends StatelessWidget {
         create: (context) => NoteProvider(),
         child: GetMaterialApp(
           debugShowCheckedModeBanner: false,
-          home: OnBording(),
+          home: OnBoarding(),
         ),
       ),
     );
